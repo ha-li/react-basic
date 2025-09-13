@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Alert} from './Alert';
 import { MovieSearch } from './Movie';
+import { OldDudes } from './OldDudes';
+import { Ninjas } from './Ninjas';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +26,14 @@ function App() {
 
       <div>
         <MovieSearch />
+      </div>
+
+      <div>
+        <OldDudes />
+      </div>
+
+      <div>
+        <Ninjas />
       </div>
     </div>
   )
